@@ -174,11 +174,11 @@ function App() {
 				//获取所有表单的数据
 				console.log(formData)
 				// 获取发生数据变化的表单数据
-				console.log(get(changKey).data)
+				console.log(get(changeKey).data)
 				// 当前变化表单的ui配置
-				console.log(get(changKey).uiSchema)
+				console.log(get(changeKey).uiSchema)
 				// 当前变化表单的校验配置
-				console.log(get(changKey).dataSchema)
+				console.log(get(changeKey).dataSchema)
       }}
       //highlight-end
     ></DripForm>
